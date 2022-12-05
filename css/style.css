@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+}
 .first {
   display: flex;
   align-items: center;
@@ -18,10 +22,9 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 43px;
+  padding: 42px 0px;
   width: 80%;
   margin: auto;
-  padding-bottom: 97px;
 }
 header img {
   margin-right: 7px;
@@ -38,6 +41,7 @@ header img {
   margin: auto;
   justify-content: space-between;
   padding-top: 50px;
+  align-items: center;
 }
 .satauri div {
   display: flex;
@@ -56,6 +60,7 @@ header img {
   margin-top: 15px;
   margin-left: 54px;
   color: white;
+  cursor: pointer;
 }
 .pirveli {
   background-color: #fcfcfc;
@@ -63,6 +68,11 @@ header img {
   padding: 8px 20px;
   border: none;
   color: #5e8a93;
+  cursor: pointer;
+}
+.pirveli:hover {
+  background-color: #183c77;
+  color: white;
 }
 .sectdiv h1 {
   font-size: 32px;
@@ -74,10 +84,15 @@ header img {
   padding-left: 54px;
   margin-top: 16px;
 }
+.satauri p {
+  margin: 0px;
+}
 .sectdiv {
   color: white;
 }
 section {
+  padding-top: 50px;
+  padding-bottom: 25px;
   background-color: rgb(241, 238, 238);
 }
 div .box {
@@ -116,7 +131,7 @@ div .box {
   margin-right: 8px;
 }
 .sectdiv3 {
-  width: 406px;
+  width: 100%;
   background: linear-gradient(to right, #183c77, #36889c);
   padding-left: 40px;
   padding-right: 15px;
@@ -139,6 +154,11 @@ div .box {
   color: #fcfcfc;
   opacity: 0.56;
 }
+.right {
+  width: 500px;
+  max-width: 450px;
+  min-width: 294px;
+}
 .sectdiv3 button {
   font-size: 16px;
   border-radius: 25px;
@@ -147,12 +167,13 @@ div .box {
   margin-bottom: 31px;
   border: none;
   padding: 12px 34px;
+  cursor: pointer;
 }
 .sectdiv3 button img {
   margin-right: 21px;
 }
 .sectdiv4 {
-  width: 406px;
+  width: 100%;
   background-color: white;
   padding: 37px 46px 26px 40px;
   margin-top: 47px;
@@ -173,7 +194,7 @@ div .box {
   opacity: 0.23;
   border: 1px solid;
   margin-bottom: 22px;
-  padding: 14px 149px 8px 15px;
+  padding: 14px 0px 8px 15px;
 }
 .sectdiv4 button {
   font-size: 17px;
@@ -182,6 +203,7 @@ div .box {
   border-radius: 25px;
   border: none;
   padding: 15px 55px;
+  cursor: pointer;
 }
 .sectdiv4 img {
   margin-right: 17px;
@@ -191,8 +213,108 @@ div .box {
   width: 80%;
   margin: 59px auto;
   gap: 50px;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .box img {
   height: 117px;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.footsat {
+  display: flex;
+}
+.footsat p {
+  margin-left: 36px;
+  font-size: 18px;
+  color: #404040;
+  opacity: 0.27;
+}
+.travel {
+  width: 377px;
+  margin-top: 44px;
+}
+.travel h1 {
+  font-size: 16px;
+}
+.travel p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #404040;
+  opacity: 0.57;
+}
+.foot2 {
+  font-size: 15px;
+  display: flex;
+  line-height: 25px;
+}
+.nav1 {
+  border-right: #f0f0f0 solid;
+  opacity: 1;
+  padding-right: 69px;
+}
+.nav3 img {
+  opacity: 0.1;
+  cursor: pointer;
+}
+.nav3 img:hover {
+  opacity: 1;
+}
+.nav2 {
+  margin-left: 69px;
+}
+.nav3 {
+  margin-left: 69px;
+}
+button.meore:hover {
+  background: linear-gradient(to right, #58c3dd, #6294a2);
+}
+@media (max-width: 480px) {
+  .middle {
+    flex-wrap: wrap;
+  }
+  header {
+    display: block;
+  }
+  .first,
+  .second {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .second {
+    margin-top: 15px;
+  }
+  div.box {
+    display: block;
+  }
+  .box div {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .sectdiv2 {
+    min-width: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+  footer {
+    row-gap: 10px;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: block;
+  }
+  div .nav3 {
+    margin-left: 50px;
+  }
+  .foot2 {
+    padding-top: 15px;
+  }
+  .travel {
+    margin-top: 15px;
+  }
 }

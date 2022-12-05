@@ -1,0 +1,75 @@
+.blogdiv h1 {
+  font-size: 20px;
+  color: #f0f0f0;
+  opacity: 0.72;
+  text-align: center;
+  margin-bottom: 19px;
+  padding-top: 81px;
+}
+.blogdiv {
+  width: 80%;
+  background: linear-gradient(to right, #183c77, #36889c);
+  margin: auto;
+}
+.blogdiv h2 {
+  font-size: 46px;
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.blogdiv p {
+  font-size: 10px;
+  color: #f0f0f0;
+  text-align: center;
+  padding-bottom: 82px;
+}
+.blogdiv2 h1 {
+  font-size: 16px;
+  color: #404040;
+  padding-top: 47px;
+  margin-bottom: 20px;
+}
+.blogdiv2 h2 {
+  font-size: 32px;
+  color: #404040;
+  margin-bottom: 20px;
+}
+.blogdiv2 p {
+  font-size: 16px;
+  color: #404040;
+  margin-bottom: 10px;
+}
+.balaxi {
+  width: 100%;
+}
+.hist {
+  margin-top: 44px;
+}
+.blogdiv2 {
+  margin: auto;
+  width: 70%;
+}
+.marcxena {
+  display: flex;
+}
+.marcxena img {
+  width: 114px;
+  height: 114px;
+}
+.blogdiv3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+.textbox h1{
+    padding-top: 0px;
+}
+.navdiv h1{
+    padding-top: 0px;
+}
+.textbox{
+    width: 55%;
+}

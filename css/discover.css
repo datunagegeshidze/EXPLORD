@@ -1,0 +1,78 @@
+.zedamxare {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.minfoto h1 {
+  font-size: 26px;
+}
+.minfoto h2 {
+  font-size: 13px;
+  color: #404040;
+  opacity: 0.23;
+  margin-top: 33px;
+}
+.minfoto p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.minfoto .patara {
+  font-size: 15px;
+  margin-top: 12px;
+}
+.minfoto {
+  margin-left: 51px;
+}
+.minfoto img {
+  margin-right: 10px;
+}
+.qveda {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 81px;
+  margin-bottom: 120px;
+  justify-content: space-between;
+}
+.qveda div {
+  width: 30%;
+}
+.qveda div img {
+  width: 100%;
+}
+.qveda h1 {
+  font-size: 15px;
+  width: 80%;
+  margin: 97px auto 0px auto;
+}
+.page3{
+    position: relative;
+}
+.page3 button{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: #6f6f6f;
+    font-size: 12px;
+    padding: 8px 20px;
+}
+@media (max-width: 480px) {
+  .zedamxare .foto img {
+    width: 100%;
+  }
+  .qveda {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .qveda div {
+    width: 100%;
+  }
+  .qveda div h1 {
+    margin-top: 20px;
+  }
+}
